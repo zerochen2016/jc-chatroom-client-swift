@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		DA9C127F238B1FDB003522D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C127E238B1FDB003522D0 /* AppDelegate.swift */; };
-		DA9C1281238B1FDB003522D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C1280238B1FDB003522D0 /* ViewController.swift */; };
 		DA9C1284238B1FDB003522D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9C1282238B1FDB003522D0 /* Main.storyboard */; };
 		DA9C1286238B1FDC003522D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9C1285238B1FDC003522D0 /* Assets.xcassets */; };
 		DA9C1289238B1FDC003522D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9C1287238B1FDC003522D0 /* LaunchScreen.storyboard */; };
+		DA9C1291238B20FB003522D0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C1290238B20FB003522D0 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA9C127B238B1FDB003522D0 /* jc-chatroom-client-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jc-chatroom-client-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9C127E238B1FDB003522D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA9C1280238B1FDB003522D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA9C1283238B1FDB003522D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA9C1285238B1FDC003522D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA9C1288238B1FDC003522D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA9C128A238B1FDC003522D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9C1290238B20FB003522D0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				DA9C127E238B1FDB003522D0 /* AppDelegate.swift */,
-				DA9C1280238B1FDB003522D0 /* ViewController.swift */,
 				DA9C1282238B1FDB003522D0 /* Main.storyboard */,
 				DA9C1285238B1FDC003522D0 /* Assets.xcassets */,
 				DA9C1287238B1FDC003522D0 /* LaunchScreen.storyboard */,
 				DA9C128A238B1FDC003522D0 /* Info.plist */,
+				DA9C1290238B20FB003522D0 /* ChatViewController.swift */,
 			);
 			path = "jc-chatroom-client-swift";
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9C1281238B1FDB003522D0 /* ViewController.swift in Sources */,
+				DA9C1291238B20FB003522D0 /* ChatViewController.swift in Sources */,
 				DA9C127F238B1FDB003522D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
